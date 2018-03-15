@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#042c54"
+    tools:context="com.example.supertec.myapp.ProfileActivity">
+
+    <ImageView
+        android:id="@+id/view_person_profilePic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="353dp"
+        android:scaleType="centerInside"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/user" />
+
+    <TextView
+        android:id="@+id/view_person_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="Display Name"
+        android:textColor="@android:color/white"
+        android:textSize="32dp" />
+
+    <TextView
+        android:id="@+id/view_person_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_person_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="current user status"
+        android:textColor="@android:color/white"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/view_person_totalFrd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_person_status"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:text="Total friend"
+        android:textColor="@android:color/white"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/send_friend_requestBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/view_person_totalFrd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="SEND FRIEND REQUEST"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/decline_friend_request"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/send_friend_requestBtn"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/colorAccent"
+        android:text="decline friend request"
+        android:textColor="@android:color/white" />
+</RelativeLayout>

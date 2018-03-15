@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "585597982",
+    "firebase_url": "https://myapp-16956.firebaseio.com",
+    "project_id": "myapp-16956",
+    "storage_bucket": "myapp-16956.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585597982:android:fb5092c2c0d4db14",
+        "android_client_info": {
+          "package_name": "com.example.supertec.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585597982-rpl0e5blhfjfcpta9s0q8klvvs12v5q9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.supertec.myapp",
+            "certificate_hash": "a047dc4b86f65bf12d8e5afac270616aef8a38b0"
+          }
+        },
+        {
+          "client_id": "585597982-a6qa0ije93tovtua8938dmia39s9fdni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBIGddYCQa7xNUgz3z0g5F1xV4eypxYu0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585597982-a6qa0ije93tovtua8938dmia39s9fdni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
